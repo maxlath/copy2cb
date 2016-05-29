@@ -1,7 +1,7 @@
 {
   "name": "copy2cb",
   "version": "1.0.0",
-  "description": "a small lib to copy text to clipboard as part of a CLI tool",
+  "description": "A small module for CLI tools to write to both process.stdout and clipboard",
   "main": "copy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
