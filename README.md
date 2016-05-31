@@ -18,3 +18,4 @@ copy2cb(text, function() { process.exit(0) })
 
 ## Live examples
 * in [wikidata-cli](https://github.com/maxlath/wikidata-cli/blob/master/bin/lib/copy.js)
+* in [text-transform-cli](https://github.com/maxlath/text-transform-cli/blob/master/lib/copy.js)
