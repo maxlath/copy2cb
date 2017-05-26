@@ -1,9 +1,6 @@
 // Write directly to the terminal to avoid passing
 // undesired logs to process.stdout
 
-// Force colors as playing with /dev/tty might disable it
-require('colors').enabled = true
-
 var fs  = require('fs')
 var ttyFound = true
 var tty = fs.createWriteStream('/dev/tty')
