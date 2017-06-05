@@ -1,6 +1,6 @@
 {
   "name": "copy2cb",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A small module for CLI tools to write to both process.stdout and clipboard",
   "main": "copy.js",
   "scripts": {
