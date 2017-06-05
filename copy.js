@@ -1,5 +1,6 @@
+var chalk = require('chalk')
 // Force colors as playing with /dev/tty might disable it
-var chalk = require('chalk').enabled = true
+chalk.enabled = true
 var copy = require('copy-paste').copy
 var tty = require('./direct_tty')
 var label = chalk.green('copied to Clipboard: ')
